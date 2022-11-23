@@ -8,7 +8,7 @@ i = 0
 
 async function getData() {
     const keyterm = $("#sTerm").val()
-    const response = await axios.get(`http://api.giphy.com/v1/gifs/search?q=${keyterm}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`);
+    const response = await axios.get(`https://api.giphy.com/v1/gifs/search?q=${keyterm}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`);
     console.log(response.data.data)
     let iUrl = response.data.data[i].id
     i += 1
