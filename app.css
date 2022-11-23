@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+button {
+    color:white;
+}
+
+img {
+    height: 200px;
+}
+
+#sButton {
+    background-color: green;
+}
+
+#rButton {
+    background-color: red;
+}
